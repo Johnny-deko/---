@@ -1,144 +1,39 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Контакти — BMW M5 E60</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #222;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        /* Верхній колонтитул */
-        #header {
-            background-color: #111;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        /* Основна частина */
-        #content {
-            display: flex;
-            flex: 1;
-        }
-
-        /* Бокова колонка */
-        #sidebar {
-            width: 220px;
-            background-color: #222;
-            color: white;
-            padding: 20px;
-        }
-
-        #sidebar h2 {
-            margin-top: 0;
-        }
-
-        #sidebar ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        #sidebar li {
-            margin: 10px 0;
-        }
-
-        #sidebar a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        #sidebar a:hover {
-            text-decoration: underline;
-        }
-
-        /* Основний вміст */
-        #main-content {
-            flex: 1;
-            padding: 20px 30px;
-            background-color: #fff;
-        }
-
-        #main-content h2 {
-            color: #0078d7;
-            border-bottom: 2px solid #0078d7;
-            padding-bottom: 5px;
-        }
-
-        ul.contact-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul.contact-list li {
-            background: #f9f9f9;
-            border: 1px solid #ddd;
-            padding: 10px 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-        }
-
-        /* Нижній колонтитул */
-        #footer {
-            background-color: #111;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-
-        /* Адаптивність */
-        @media (max-width: 768px) {
-            #content {
-                flex-direction: column;
-            }
-            #sidebar {
-                width: 100%;
-                text-align: center;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакти</title>
+<style>
+body { margin:0; font-family:Arial; background:#ececec; }
+header { background:#000; padding:25px; color:white; text-align:center; }
+nav { background:#1b1b1b; }
+nav ul { list-style:none; margin:0; padding:0; display:flex; justify-content:center; }
+nav a { display:block; padding:15px 25px; color:white; text-decoration:none; transition:0.3s; }
+nav a:hover { background:#333; }
+nav a:active { background:#0078d7; }
+#contact { background:white; max-width:800px; margin:40px auto; padding:40px; border-radius:12px; }
+h2 { color:#0078d7; border-bottom:3px solid #0078d7; padding-bottom:8px; }
+footer { background:#111; color:white; text-align:center; padding:15px; margin-top:20px; }
+</style>
 </head>
 <body>
-    <!-- Верхній колонтитул -->
-    <div id="header">
-        <h1>Контакти</h1>
-    </div>
-
-    <!-- Основна частина -->
-    <div id="content">
-        <!-- Бокова колонка -->
-        <div id="sidebar">
-            <h2>Меню</h2>
-            <ul>
-                <li><a href="index.html">Головна</a></li>
-                <li><a href="history.html">Історія</a></li>
-                <li><a href="specs.html">Технічні характеристики</a></li>
-            </ul>
-        </div>
-
-        <!-- Основний вміст -->
-        <div id="main-content">
-            <h2>Зв'яжіться з нами</h2>
-            <p>Якщо у вас є запитання, пропозиції або ви хочете дізнатися більше про BMW M5 E60 — зв’яжіться з нами:</p>
-            <ul class="contact-list">
-                <li><strong>Email:</strong> info@bmw5me60.com</li>
-                <li><strong>Телефон:</strong> +38 (050) 123 45 67</li>
-                <li><strong>Адреса:</strong> вул. Автомобільна 5, м. Київ, Україна</li>
-            </ul>
-            <p>Ми завжди раді вашим повідомленням!</p>
-        </div>
-    </div>
-
-    <!-- Нижній колонтитул -->
-    <div id="footer">
-        <p>&copy; 2025 BMW M5 E60. Усі права захищені.</p>
-    </div>
+<header><h1>Контакти</h1></header>
+<nav>
+<ul>
+<li><a href="index.html">Головна</a></li>
+<li><a href="history.html">Історія</a></li>
+<li><a href="specs.html">Характеристики</a></li>
+<li><a href="contact.html">Контакти</a></li>
+</ul>
+</nav>
+<div id="contact">
+<h2>Звʼязок</h2>
+<p>Email: info@bmw-m5-e60.com</p>
+<p>Телефон: +380 97 123 45 67</p>
+</div>
+<footer>© 2025 BMW M5 E60</footer>
 </body>
 </html>
+
+
